@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 90vh;
+    margin: 0 auto;
+}
+
+.entries {
+    display: flex;
+    flex-direction: row;
+}
+.failed-message {
+    color: red;
+    margin: 20px;
+}
