@@ -13,4 +13,6 @@
 .failed-message {
     color: red;
     margin: 20px;
+    visibility: hidden;
 }
+
