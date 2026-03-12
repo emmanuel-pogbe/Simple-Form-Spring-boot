@@ -32,7 +32,7 @@ class MainUser {
 @RestController
 @RequestMapping("/users/posts")
 public class ReceivingPosts {
-    List<MainUser> userList = new ArrayList<>();
+    private List<MainUser> userList = new ArrayList<>();
 
     @PostMapping("/add")
     public ApiResponse addToList(@RequestBody MainUser user1) {
